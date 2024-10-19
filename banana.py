@@ -427,7 +427,7 @@ class Banana:
             num_acc = len(data)
             self.log(self.line)
             self.log(f"{green}Total accounts: {white}{num_acc}")
-            self.min_harvest_time = float('inf')
+            self.min_harvest_time = 1
 
             for no, data in enumerate(data):
                 self.log(self.line)
